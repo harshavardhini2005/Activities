@@ -1,0 +1,19 @@
+.rectangle {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    border: 2px solid black;
+}
+.triangle {
+    position: relative;
+    margin: 50px;
+    top: 50px; /* Adjust the position to place it on the rectangle */
+    left: 154px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid red;
+}
